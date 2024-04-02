@@ -1,7 +1,6 @@
 
 # PostgreSQL version
-PG_VER=12						# Supported PostgreSQL versions: 9.6, 10, 11, 12, 13
-
+PG_VER=13						# Supported PostgreSQL versions: 9.6, 10, 11, 12, 13
 
 # Red Hat / CentOS
 #PG_BIN=/usr/pgsql-$PG_VER/bin				# Executables directory (by default, do not change!)
