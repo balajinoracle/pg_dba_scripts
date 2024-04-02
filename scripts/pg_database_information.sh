@@ -5,7 +5,7 @@
 source ./settings.txt
 
 # Array of PosgtreSQL servers
-declare -a servers_list=("localhost")									# Local server
+declare -a servers_list=("Balajis-Laptop.local")									# Local server
 #declare -a servers_list=("pg_server_1" "pg_server_2" "pg_server_3")	# Servers list, hostnames. Format: "pg_server_1" "pg_server_2" ...
 
 

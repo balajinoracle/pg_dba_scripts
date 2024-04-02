@@ -4,14 +4,18 @@ PG_VER=13						# Supported PostgreSQL versions: 9.6, 10, 11, 12, 13
 
 # Red Hat / CentOS
 #PG_BIN=/usr/pgsql-$PG_VER/bin				# Executables directory (by default, do not change!)
+PG_BIN=/Library/PostgreSQL/13/bin
 
 #PG_DATA=/var/lib/pgsql/$PG_VER/data			# Main data directory
+PG_DATA=/Library/PostgreSQL/13/data
 #PG_ARC=/var/lib/pgsql/$PG_VER/archive			# Archive logs directory
 #PG_LOG_DIR=/var/lib/pgsql/$PG_VER/data/log		# Directory for log files. For PostgreSQL 9.6 directory is /pg_log
+PG_LOG_DIR=/Library/PostgreSQL/13/data/log/
 
 
 # Debian / Ubuntu
 #PG_BIN=/usr/lib/postgresql/$PG_VER/bin			# Executables directory (by default, do not change!)
+PG_BIN=/Library/PostgreSQL/13/bin/
 
 #PG_DATA=/var/lib/postgresql/$PG_VER/data		# Main data directory
 #PG_ARC=/var/lib/postgresql/$PG_VER/archive		# Archive logs directory

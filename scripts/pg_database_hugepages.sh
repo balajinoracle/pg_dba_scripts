@@ -1,4 +1,4 @@
-#!/bin/bash
+#!/bin/sh
 
 # Get Number of Required HugePages
 # https://www.percona.com/blog/2018/08/29/tune-linux-kernel-parameters-for-postgresql-optimization/
